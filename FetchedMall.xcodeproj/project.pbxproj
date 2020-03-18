@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794567D0241F4D160064C85A /* MallDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794567CF241F4D160064C85A /* MallDelegate.swift */; };
+		7964744A2419EFF400C1977D /* MallTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796474492419EFF400C1977D /* MallTableViewController.swift */; };
+		7964744C241A0CFB00C1977D /* MallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964744B241A0CFB00C1977D /* MallModel.swift */; };
+		7964744E241BA26D00C1977D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7964744D241BA26D00C1977D /* TableViewCell.swift */; };
 		79EEC45B2418B4FA00941681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEC45A2418B4FA00941681 /* AppDelegate.swift */; };
 		79EEC45D2418B4FA00941681 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEC45C2418B4FA00941681 /* SceneDelegate.swift */; };
-		79EEC45F2418B4FA00941681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEC45E2418B4FA00941681 /* ViewController.swift */; };
 		79EEC4622418B4FA00941681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EEC4602418B4FA00941681 /* Main.storyboard */; };
 		79EEC4642418B4FB00941681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EEC4632418B4FB00941681 /* Assets.xcassets */; };
 		79EEC4672418B4FB00941681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EEC4652418B4FB00941681 /* LaunchScreen.storyboard */; };
 		79EEC4722418B4FB00941681 /* FetchedMallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEC4712418B4FB00941681 /* FetchedMallTests.swift */; };
 		79EEC47D2418B4FB00941681 /* FetchedMallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEC47C2418B4FB00941681 /* FetchedMallUITests.swift */; };
+		79EEC48B2418B56600941681 /* MallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEC48A2418B56600941681 /* MallViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		794567CF241F4D160064C85A /* MallDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallDelegate.swift; sourceTree = "<group>"; };
+		796474492419EFF400C1977D /* MallTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallTableViewController.swift; sourceTree = "<group>"; };
+		7964744B241A0CFB00C1977D /* MallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallModel.swift; sourceTree = "<group>"; };
+		7964744D241BA26D00C1977D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		79EEC4572418B4FA00941681 /* FetchedMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchedMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EEC45A2418B4FA00941681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79EEC45C2418B4FA00941681 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79EEC45E2418B4FA00941681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79EEC4612418B4FA00941681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79EEC4632418B4FB00941681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79EEC4662418B4FB00941681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		79EEC4782418B4FB00941681 /* FetchedMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchedMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EEC47C2418B4FB00941681 /* FetchedMallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedMallUITests.swift; sourceTree = "<group>"; };
 		79EEC47E2418B4FB00941681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EEC48A2418B56600941681 /* MallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,12 @@
 			children = (
 				79EEC45A2418B4FA00941681 /* AppDelegate.swift */,
 				79EEC45C2418B4FA00941681 /* SceneDelegate.swift */,
-				79EEC45E2418B4FA00941681 /* ViewController.swift */,
 				79EEC4602418B4FA00941681 /* Main.storyboard */,
+				79EEC48A2418B56600941681 /* MallViewModel.swift */,
+				794567CF241F4D160064C85A /* MallDelegate.swift */,
+				7964744D241BA26D00C1977D /* TableViewCell.swift */,
+				796474492419EFF400C1977D /* MallTableViewController.swift */,
+				7964744B241A0CFB00C1977D /* MallModel.swift */,
 				79EEC4632418B4FB00941681 /* Assets.xcassets */,
 				79EEC4652418B4FB00941681 /* LaunchScreen.storyboard */,
 				79EEC4682418B4FB00941681 /* Info.plist */,
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79EEC45F2418B4FA00941681 /* ViewController.swift in Sources */,
+				794567D0241F4D160064C85A /* MallDelegate.swift in Sources */,
+				79EEC48B2418B56600941681 /* MallViewModel.swift in Sources */,
 				79EEC45B2418B4FA00941681 /* AppDelegate.swift in Sources */,
 				79EEC45D2418B4FA00941681 /* SceneDelegate.swift in Sources */,
+				7964744E241BA26D00C1977D /* TableViewCell.swift in Sources */,
+				7964744A2419EFF400C1977D /* MallTableViewController.swift in Sources */,
+				7964744C241A0CFB00C1977D /* MallModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
